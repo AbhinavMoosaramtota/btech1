@@ -17,4 +17,12 @@ Scanner sc=new Scanner(System.in): System.in helps in reading the value from the
 when we are scanning we use sc.nextInt it is the method to read from the keyboard in this case it is an integer type.
 if you want to use the scanner function then we need to use the header file import.java.util.scanner
 
+Types of Operators:
+Arithmetic Operator: +,-,*,/,%
+Assignment Operator: =, +=
+Comparision Operator: ==,>=,<=
+Logical Operator: &&,||,!
+Bitwise Operator: &
+Arithemetic operators cannot work with booleans
+Precedence tells us which symbol to execute first and Associativity tells us the directrion of execution if they have same precedence
 
