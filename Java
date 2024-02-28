@@ -21,11 +21,23 @@ int sum=a+b+c;
 }
 
 //Greet someone
-class Percentage {
+import java.util.*;
+class Greeting {
     public static void main(String[] args) {
-System.out.println("What is your name ")
+System.out.println("What is your name ");
 Scanner sc=new Scanner(System.in);
 String name=sc.next();
-        System.out.println("Hello" +name "have a good day");
+        System.out.println("Hello " + name + " have a good day");
     }
 }
+
+//Write a program to check wether the number given by the user is integer value or not
+import java.util.*;
+class integer{
+public static void main(String args[]){
+System.out.println ("Enter a Number");
+Scanner sc=new Scanner(System.in);
+System.out.println (sc.hasNextInt()); 
+}
+}
+
