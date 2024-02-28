@@ -1,1 +1,31 @@
+// Write a program to calculate percentage of a given student. 3 subjects must be taken as an input from keyboard
+class Percentage {
+    public static void main(String[] args) {
+int a=55;
+int b=59;
+int c=90;
+int percentage=(a+b+c)/30;
+        System.out.println(percentage);
+    }
+}
 
+//Write a program to find sum of three numbers
+class Sum {
+    public static void main(String[] args) {
+int a=5;
+int b=5;
+int c=5;
+int sum=a+b+c;
+        System.out.println("Sum of three numbers = "+sum);
+    }
+}
+
+//Greet someone
+class Percentage {
+    public static void main(String[] args) {
+System.out.println("What is your name ")
+Scanner sc=new Scanner(System.in);
+String name=sc.next();
+        System.out.println("Hello" +name "have a good day");
+    }
+}
