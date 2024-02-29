@@ -41,3 +41,13 @@ System.out.println (sc.hasNextInt());
 }
 }
 
+// string uppercase lowercase code
+class string {
+    public static void main(String[] args) {
+       String name=("Abhi");
+       String lowercase=name.toLowerCase();
+       System.out.println(lowercase);
+       String uppercase=name.toUpperCase();
+       System.out.println(uppercase);
+    }
+}
