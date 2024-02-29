@@ -31,3 +31,6 @@ Strings:
 a string is a sequence of characters
 String name;
 name = new String ("abhi");
+trimstring keyword is used to remove all the spaces present in the doublequotes
+
+
