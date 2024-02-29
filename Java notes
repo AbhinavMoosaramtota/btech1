@@ -24,5 +24,10 @@ Comparision Operator: ==,>=,<=
 Logical Operator: &&,||,!
 Bitwise Operator: &
 Arithemetic operators cannot work with booleans
-Precedence tells us which symbol to execute first and Associativity tells us the directrion of execution if they have same precedence
+Precedence tells us which symbol to execute first and Associativity tells us the directrion of execution if they have same 
+precedence
 
+Strings:
+a string is a sequence of characters
+String name;
+name = new String ("abhi");
