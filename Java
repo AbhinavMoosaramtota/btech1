@@ -51,3 +51,14 @@ class string {
        System.out.println(uppercase);
     }
 }
+
+//replacing
+import java.io.*;
+class Replace{
+public static void main(String args[]){
+String letter="Dear <|name|> Thanks a lot";
+letter=letter.replace("<|name|>","Abhi");
+System.out.println(letter);
+}
+}
+
