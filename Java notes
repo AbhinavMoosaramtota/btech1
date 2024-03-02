@@ -33,4 +33,9 @@ String name;
 name = new String ("abhi");
 trimstring keyword is used to remove all the spaces present in the doublequotes
 
+Arrays: 
+Declaration: int[] marks
+Memory allocation: marks= new int[5]
+Declaration + Memory allocation: int []marks = new int[5];
+
 
