@@ -1,4 +1,4 @@
-//INSERTION SORT
+//INSERTION SORT - ARRANGES THE ELEMENTS IN 1 GO IT ARRANGES EVERYTHING IN SINGLE TAKE.
 #include <stdio.h>
 void insertionsort(int arr[],int n){
     for (int i=1;i<n;i++){
@@ -29,7 +29,7 @@ int main() {
     return 0;
 }
 
-//BUBBLE SORT
+//BUBBLE SORT - IT COMPARES TWO ELEMENTS SWAPS, KEEPS ON REPEATING THIS PROCESS.
 #include <stdio.h>
 
 void bubbleSort(int arr[], int n) {
