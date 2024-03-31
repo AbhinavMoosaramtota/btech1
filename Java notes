@@ -53,7 +53,22 @@ AUTOBOXING: it is an automatic way provided by java compiler makes between the p
 UNBOXING: the reverse of unboxing i.e from wrapper class to primitive data type.
 primitive data types are faster than wrapper class.
 
-Array List:
+Array List: 
+stores a resizable array
+Syntax:
+ArrayList<String> food = new ArrayList<String>();
+in the place of string always remember we need to give the reference data types not the primitive data types i.e we need
+to use the wrapper class that is using instead of <int> in the angle brackets we need to use the wrapper class or 
+reference data type i.e <Integer>.
+while using arrays when we use the loop we use .length whereas when we are using arraylist we use .size.
+The array is a fixed sized data structure thus, the array always needs to mention the size of the elements. 
+On the other hand, ArrayList is not a fixed sized data structure, thus there is no need to mention the size of the 
+ArrayList especially creating its object.
+
+2D ARRAY LISTS:
+you can change the size of these lists during runtime. they are list of lists.
+Syntax:
+ArrayList<ArrayList<String>> grocery = new ArrayList();
 
 Objects:
 it is a blue print of class. Class is also an object
