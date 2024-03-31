@@ -16,6 +16,14 @@ and it is of String type.
 Scanner sc=new Scanner(System.in): System.in helps in reading the value from the keyboard
 when we are scanning we use sc.nextInt it is the method to read from the keyboard in this case it is an integer type.
 if you want to use the scanner function then we need to use the header file import.java.util.scanner
+if you want to scan a string then we use String name = sc.nextLine();.
+Instead of string if we want ot scan a integer variable then we use nextInt
+
+MATH CLASS:
+if you want to find out the max or min element in the given comparision between two integers or if you want to find out the
+Hypotenuse of a triangle the we use math class you can also use it to find out the sqrt of a given number.
+Syntax: Math.sqrt();
+
 
 Types of Operators:
 Arithmetic Operator: +,-,*,/,%
@@ -38,4 +46,10 @@ Declaration: int[] marks
 Memory allocation: marks= new int[5]
 Declaration + Memory allocation: int []marks = new int[5];
 
+Array List:
+
+Objects:
+it is a blue print of class. Class is also an object
+It is an instance of class where they contain attributes and methods.
+Syntax: Classname obj name = new classname();
 
