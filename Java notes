@@ -72,7 +72,10 @@ ArrayList<ArrayList<String>> grocery = new ArrayList();
 
 FOR EACH LOOP:
 traversing technique to iterate through the elements in an array/collection.
-less steps, less flexible, more readable
+less steps, less flexible, more readable.
+
+METHODS:
+a block of code that is executed whenever it is called upon
 
 Objects:
 it is a blue print of class. Class is also an object
