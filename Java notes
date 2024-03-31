@@ -24,7 +24,6 @@ if you want to find out the max or min element in the given comparision between 
 Hypotenuse of a triangle the we use math class you can also use it to find out the sqrt of a given number.
 Syntax: Math.sqrt();
 
-
 Types of Operators:
 Arithmetic Operator: +,-,*,/,%
 Assignment Operator: =, +=
@@ -45,6 +44,14 @@ Arrays:
 Declaration: int[] marks
 Memory allocation: marks= new int[5]
 Declaration + Memory allocation: int []marks = new int[5];
+
+WRAPPER CLASS:
+provide a way to use primitive data types into reference data types.
+ex: int is converted to integer, char is converted to character.
+in the above example the int and char are primitive data types and the integer and character is wrapper class.
+AUTOBOXING: it is an automatic way provided by java compiler makes between the primitive data type and wrapper class.
+UNBOXING: the reverse of unboxing i.e from wrapper class to primitive data type.
+primitive data types are faster than wrapper class.
 
 Array List:
 
