@@ -80,8 +80,17 @@ overloaded methods: methods that share the same name but have different paramete
 method name + parameters = method signature.
 they can share the same method name but need different parameters to give each one of them a unique method signature.
 
+PRINTF:
+an optional method to control, format, and display text to the console window
+two arguments = format string + (object/variable/value)
+% [flags] [precision] [width] [conversion-character].
+
 Objects:
 it is a blue print of class. Class is also an object
 It is an instance of class where they contain attributes and methods.
 Syntax: Classname obj name = new classname();
 
+CONSTRUCTOR:
+it is used to initialize the vatiables 
+keyword: this.
+constructors allow us to assign different attributes to each object that we instantiate
