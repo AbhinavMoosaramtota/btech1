@@ -215,3 +215,39 @@ public class Main {
 // in method overloading we can have all same method names but need to have different parameters like changing the number
 of parameters or changing of the data type in the in the parameters this gives a unique method signature.
 
+//CONSTRUCTOR
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Human human1 = new Human("Rick", 65, 70);
+        Human human2 = new Human("Morty", 16, 50);
+        human1.drink();
+        human2.eat();
+    }
+}
+class Human {
+    private String name;
+    private int age;
+    private double weight;
+    public Human(String name, int age, double weight) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+    }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public double getWeight() {
+        return weight;
+    }
+    public void eat() {
+        System.out.println(name + " is eating.");
+    }
+    public void drink() {
+        System.out.println(name + " is drinking *burp*.");
+    }
+}
+
