@@ -155,3 +155,20 @@ public class Main {
 		}
 	}
 }
+
+//METHODS
+public class Main {
+	public static void main(String[] args) {
+		// method = a block of code that is executed whenever it is called upon
+		int x = 3;
+		int y = 4;
+		int z = add(x,y);
+		System.out.println(z);
+	}
+	static int add(int x, int y) {	
+		int z = x + y;
+		return z;
+	}
+}
+// in the above code add is a method we can pass in arguments but you need to have a matching set of parameters(int x, int y)
+//in your method. methods is nothing but function in c. they are executed whenever they are called upon
