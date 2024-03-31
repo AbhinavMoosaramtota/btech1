@@ -94,3 +94,4 @@ CONSTRUCTOR:
 it is used to initialize the vatiables 
 keyword: this.
 constructors allow us to assign different attributes to each object that we instantiate
+overloaded constructor: it can have same name but different parameters.
