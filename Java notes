@@ -70,6 +70,10 @@ you can change the size of these lists during runtime. they are list of lists.
 Syntax:
 ArrayList<ArrayList<String>> grocery = new ArrayList();
 
+FOR EACH LOOP:
+traversing technique to iterate through the elements in an array/collection.
+less steps, less flexible, more readable
+
 Objects:
 it is a blue print of class. Class is also an object
 It is an instance of class where they contain attributes and methods.
