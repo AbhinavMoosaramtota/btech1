@@ -75,7 +75,10 @@ traversing technique to iterate through the elements in an array/collection.
 less steps, less flexible, more readable.
 
 METHODS:
-a block of code that is executed whenever it is called upon
+a block of code that is executed whenever it is called upon.
+overloaded methods: methods that share the same name but have different parameters.
+method name + parameters = method signature.
+they can share the same method name but need different parameters to give each one of them a unique method signature.
 
 Objects:
 it is a blue print of class. Class is also an object
