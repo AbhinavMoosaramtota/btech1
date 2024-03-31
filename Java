@@ -62,3 +62,14 @@ System.out.println(letter);
 }
 }
 
+//OBJECT CALLING
+public class Car {
+    int model = 1992;
+        String name = "HAYABUSA";
+        
+    public static void main(String[] args) {
+            Car mycar = new Car();
+            System.out.println(mycar.model);
+            System.out.println(mycar.name);
+}
+}
