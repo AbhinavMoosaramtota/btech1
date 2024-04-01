@@ -58,3 +58,38 @@ int main() {
     return 0;
 }
 
+// QUICK SORT
+#include <stdio.h>
+int partition(int start, int end, int a[]){
+    int i = start-1;
+    int pivot = a[end];
+    for(int j=start;j<end;j++){
+        if(a[j]<pivot){
+            i++;
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
+    }
+    int t = a[i+1];
+    a[i+1] = a[end];
+    a[end] = t;
+    return i+1;
+}
+void quickSort(int start, int end, int a[]){
+    if(start<end){
+        int p = partition(start, end, a);
+        quickSort(start, p-1, a);
+        quickSort(p+1, end, a);
+    }
+}
+int main() {
+    int n, a[100];
+    scanf("%d", &n);
+    for(int i=0;i<n;i++)
+    scanf("%d", &a[i]);
+    quickSort(0,n-1,a);
+    for(int i=0;i<n;i++)
+    printf("%d ", a[i]);
+    return 0;
+}
