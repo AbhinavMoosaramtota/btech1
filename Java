@@ -289,3 +289,46 @@ class Pizza {
 		this.topping = topping;
 	}
 }
+
+//ARMSTRONG NUMBER
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+    int n,sum=0;
+    System.out.println("Enter: ");
+    n=sc.nextInt();
+    int temp=n;
+    while(n>0){
+    int r=n%10;
+    n=n/10;
+    sum=sum+(r*r*r);
+    }
+    if(temp==sum){
+        System.out.println("Armstrong");
+    }else{
+        System.out.println("NO");
+    }
+    }
+}
+
+/PALINDROME NUMBER
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+    int n,sum=0;
+    System.out.println("Enter: ");
+    n=sc.nextInt();
+    int temp=n;
+    while(n>0){
+    int r=n%10;
+    n=n/10;
+    sum=sum*10+r;
+    }
+    if(temp==sum){
+        System.out.println("PALINDROME");
+    }else{
+        System.out.println("NO");
+    }
+    }
