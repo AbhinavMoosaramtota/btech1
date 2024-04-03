@@ -332,3 +332,20 @@ class HelloWorld {
         System.out.println("NO");
     }
     }
+
+//FIBONACCI SERIES
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+        int n = read.nextInt();
+        int a = 0, b = 1, c = 1;
+        System.out.println(a);
+        while(c<=n){
+           System.out.println(c);
+           c = a+b;
+           a = b;
+           b = c;
+ }
+}
+}
